@@ -136,6 +136,53 @@
                     </li>
                 </ul>
             </section>
+            <section class="questionary">
+                <h2 class="questionary__title">Анкета для вступу на контрактну службу</h2>
+                    <form class="questionary__form form" action="#" method="post">
+                        <fieldset class="form__personal-data">
+                            <legend>Персональні дані</legend>
+                            <label>Прізвище:<br><input type="text" name="surname" placeholder="вкажіть ваше прізвище"></label><br>
+                            <label>Ім'я:<br><input type="text"name="your-name" placeholder="вкажіть ваше ім'я"></label><br>
+                            <label>По-батькові:<br><input type="text" name="patronymic" placeholder="як вас по-батькові"></label><br>
+                            <label>Дата народження:<br><input type="date" name="dirthday"></label><br>
+                            <label>Номер телефону:<br><input type="tel" name="your-tel" placeholder="вкажіть ваш телефон"></label><br>
+                        </fieldset>
+                        <fieldset class="form__service">
+                            <legend>Чи служили у ЗСУ раніше?</legend>
+                            <label>Так<input type="radio" name="service" value="service-true"></label>
+                            <label>Ні<input type="radio" name="service" value="service-false"></label>
+                        </fieldset>
+                        <fieldset class="form__combat-experience">
+                            <legend>Чи маєте бойовий досвід?</legend>
+                            <label>Так<input type="radio" name="experience" value="experience-true"></label>
+                            <label>Ні<input type="radio" name="experience" value="experience-false"></label>
+                        </fieldset>
+                        <fieldset class="form__weapon">
+                            <legend>Якою зброєю вмієте користуватись?</legend>
+                            <textarea name="weapon-area" id="weapon-area" cols="30" rows="10" placeholder="Вкажіть якою зброєю вмієте коритуватись"></textarea>
+                        </fieldset>
+                        <fieldset class="form__term-contract">
+                            <legend>На який термін ви б могли підписати контракт?</legend>
+                            <select name="term-contract" id="term-contract">
+                                <option value="six-months">6 місяців</option>
+                                <option value="one-year">1 рік </option>
+                                <option value="three-years">3 роки</option>
+                                <option value="five-years">5 років</option>
+                            </select>
+                        </fieldset>
+                        <fieldset class="form__guarantor">
+                            <legend>Вкажіть людей які можуть вас рекомендувати</legend>
+                            <label>Ім'я або позивний людини, яка може вас рекомендувати:<br>
+                                <input type="text" name="name-guarantor" placeholder="Ім'я або позивний">
+                            </label>
+                            <br>
+                            <label>Електронна пошта людини, яка може вас рекомендувати: <br>
+                                <input type="email" name="email-guarantor" placeholder="Електронна пошта">
+                            </label>
+                        </fieldset>
+                        <input type="submit" value="відправити">
+                    </form>
+            </section>
             <hr>
         </main>
         <footer class="footer">
