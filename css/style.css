@@ -1,3 +1,6 @@
+.nav__list{
+    padding: 0;
+}
 *:not(.form > *) {
     margin: 0;
     padding: 0;
