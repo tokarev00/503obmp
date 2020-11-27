@@ -42,10 +42,10 @@ h3{
 .nav__list,
 .links__list,
 .contacts__list{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+list-style: none;
 }
 .links__list,
 .contacts__list{
@@ -68,4 +68,7 @@ h3{
 }
 .links__list a{
     font-size: 35px;
+}
+.video__inner > iframe{
+    margin: auto;
 }
